@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="CowTruck" class="CowTruck">
+
+    </bean>
+
+    <bean id="fastTaxi" class="FastTaxi">
+
+    </bean>
+
+
+    <bean id="truck" class="Truck">
+
+    </bean>
+    <bean id="pickup" class="Pickup">
+
+    </bean>
+
+    <bean id="sedan" class="Sedan">
+
+    </bean>
+    <bean id="GarbageCar" class="GarbageCar">
+
+    </bean>
+    <bean id="schoolBus" class="SchoolBus">
+
+    </bean>
+</beans>
